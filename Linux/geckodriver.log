@@ -1,0 +1,54 @@
+1642947629212	geckodriver	INFO	Listening on 127.0.0.1:42417
+1642947629216	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38103" "-no-remote" "-profile" "/tmp/rust_mozprofileMIqjRf"
+1642947629646	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMIqjRf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38103/devtools/browser/aaacbc5d-4300-4052-be06-82132fc3317a
+1642947630962	Marionette	INFO	Listening on port 36991
+1642947631070	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1642947666254	Marionette	INFO	Stopped listening on port 36991
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642947710702	geckodriver	INFO	Listening on 127.0.0.1:45389
+1642947710706	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44603" "-no-remote" "-profile" "/tmp/rust_mozprofileDRJJst"
+1642947711149	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDRJJst/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44603/devtools/browser/b5ed375b-042e-417b-8078-66c22976c93f
+1642947712343	Marionette	INFO	Listening on port 34717
+1642947712440	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+1642947724078	Marionette	INFO	Stopped listening on port 34717
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1652924179486	geckodriver	INFO	Listening on 127.0.0.1:55355
+1652924180003	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46561" "-no-remote" "-profile" "/tmp/rust_mozprofilecBUhYV"
+1652924180891	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecBUhYV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46561/devtools/browser/75802c56-9b65-46ac-bb13-9cba6f10bc10
+1652924182583	Marionette	INFO	Listening on port 42287
+1652924182639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 1881 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/s?k=Iphone&ref=nb_sb_noss line 10907 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652924192489	Marionette	INFO	Stopped listening on port 42287
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652924411052	geckodriver	INFO	Listening on 127.0.0.1:48211
+1652924411056	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43293" "-no-remote" "-profile" "/tmp/rust_mozprofileOOGBT3"
+1652924411443	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOOGBT3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43293/devtools/browser/aa0055ce-dab9-4765-b8c1-23a13cdfe43f
+1652924412523	Marionette	INFO	Listening on port 45361
+1652924412571	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 1918 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/s?k=Iphone&ref=nb_sb_noss line 10446 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652924419343	Marionette	INFO	Stopped listening on port 45361
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
